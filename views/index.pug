@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		title= title
+
+	body
+		p welcome to somethig please login to proceed!
+		form(id="form",name="form",method="post",action="")
+			table
+				tr
+					input(type="text",id="username",name="username",placeholder="Your Username")
+					input(type='password',id='password',name='password',placeholder='Password here')
+					input(type="submit",value = 'Login')
+
+		span
+			p Dont have an account yet?
+
+			p 
+				a(href="/signup") Sign UP
